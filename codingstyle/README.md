@@ -14,8 +14,8 @@
  ```
  
  ```
- if(width==0 and height ==0 and
-     color=='red' and emphasis=='strong')
+ if(width == 0 and height == 0 and
+     color == 'red' and emphasis == 'strong')
  ```
  
 - 當字串長度大於一行時，將其分行並使用括弧將整個字串包起來。
@@ -63,17 +63,17 @@ for (x,y) in dict.items():
 
 ```
 # 在括弧或是引號等定界符內，參數第一欄縱向對齊要有數值
-foo=long_function_name(var_one,var_two,
+foo = long_function_name(var_one,var_two,
               var_three, var_four)
 
 # 在dictionary的定界符號內
-foo={
+foo = {
     long_dictionary_key: value1 +
                 value2,
     ...
 }
 # 第一行沒有包含參數，第二行要縮排四格空格
-foo=long_function_name(
+foo = long_function_name(
     var_one, var_two, var_three,
     var_four)
 ```
